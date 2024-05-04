@@ -21,7 +21,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-img{
+.img1{
     height: 27vh;
     width: 12vw;
     opacity: 1px;
@@ -34,6 +34,7 @@ img{
 }
 .a{
     font-size: 8px;
+    margin: 0px 3px 0px 3px;
 }
 .star{
     display: flex;
@@ -62,9 +63,9 @@ header{
     justify-content: center;
     align-items: center;
     border: 1px solid #c4bcbc;
-    font-size: 12px;
+    font-size: 10px;
     list-style-type: none;
-    gap: 10px;
+    gap: 13px;
     padding: 8px;
 }
 li:hover{
@@ -87,15 +88,25 @@ li:hover{
     margin: auto;
     border: 1px solid black;
     height: 60vh;
-    width: 45vw;
+    width: 55vw;
 }
-.image1{
+/* .image1{
     display: flex;
     font-size: 13px;
-}
+} */
 b{
     font-size: 20px;
 }
-.image2{
-    flex-direction: column-reverse;
+.image1{
+    display: flex;
+    font-size: 10px;
+}
+.image5{
+    height: 100vh;
+    width: 85vw;
+    /* padding: 30px; */
+}
+.img2{
+    height: 40vh;
+    width: 30vw;
 }
